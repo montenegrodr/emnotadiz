@@ -1,7 +1,7 @@
 import csv
 import unicodedata
 import matplotlib.pyplot as plt
-from wordcloud import WordCloud
+    from wordcloud import WordCloud
 from nltk.corpus import stopwords
 
 all_stopwords = stopwords.words('portuguese')
@@ -36,4 +36,4 @@ wordcloud = WordCloud().generate(text)
 # the matplotlib way:
 plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis("off")
-plt.show()
+plt.savefig('chart.png')
