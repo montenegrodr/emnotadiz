@@ -1,6 +1,5 @@
 # Politico em nota, diz:
 
-
 ![Nuvem de palavras](chart.png)
 
 
